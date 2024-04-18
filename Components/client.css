@@ -1,0 +1,92 @@
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+   padding-top: 2rem;
+    font-family: 'Playpen Sans', Courier, monospace;
+}
+.clientquestion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.mostpopularq{
+    margin: 1rem;
+
+}
+.m{
+margin: 0.4rem;
+padding: 0.5rem;
+cursor: pointer;
+
+}
+.inside{
+    padding: 0.5rem;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.inside{
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.butts{
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.ahref{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+.shad{
+padding: 1rem;
+   box-shadow: 10px 15px 10px 15px whitesmoke;
+   margin: 1.5rem;
+   
+}
+.mw{
+    color: red;
+}
+
+@media (min-width: 280px) and (max-width: 567px){
+   .shad{
+    width: 80%;
+   }
+    
+  }
+  @media (min-width: 567px) and (max-width: 768px){
+.shad{
+    width: 70%;
+}
+   
+
+ 
+  }
+
+  @media (min-width: 768px) and (max-width: 992px){
+
+    .shad{
+        width: 60%;
+    }
+  }

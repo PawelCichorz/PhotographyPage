@@ -1,0 +1,191 @@
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: 'Playpen Sans', Courier, monospace;
+    overflow: hidden;
+    padding-bottom: 2rem;
+
+}
+.lifestyle, .reportage, .property{
+    
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.cards{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+
+}
+.card{
+    padding-top: 1rem;
+    position: relative;
+    margin:10px 20px;
+    width: 280px;
+    height: 350px;
+    perspective: 800px;
+    border: solid 1px goldenrod;
+    border-radius: 15px;
+    
+    
+   
+}
+.img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: .8s;
+  
+    /* background-color:	whitesmoke */
+    /* background-color:rgb(244, 238, 238); */
+    
+    
+}
+.text{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 20px;
+background-color:	whitesmoke;
+border-radius: 14px;
+text-align: center;
+transition: 0.8s;
+opacity: 0;
+}
+.h2h2{
+    font-size: 2rem;
+   color:goldenrod;
+   margin-bottom: 0.3rem;
+}
+.text-one{
+    transform: rotateX(-180deg);
+}
+
+.card:hover .text{
+    transform: rotateX(0);
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: goldenrod;
+}
+
+.card:hover .one{
+    transform: rotateX(180);
+    opacity: 0
+}
+.pakietname{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+  
+
+}
+.pricelass{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.butt{
+   position: absolute;
+    bottom:10px;
+  background: transparent;
+    padding: 1.3rem 2rem;
+    border-radius: 8px;
+    bottom: 1rem;
+    transform: translate(-50%,-50%);
+    left: 50%;
+   border: solid 1px goldenrod;
+    color:goldenrod;
+    
+    
+   
+}
+.points{
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+
+@media (min-width: 280px) and (max-width: 567px){
+   
+  
+    .downdown{
+        font-size: 0.65rem;
+    }
+    .points{
+        font-size: 1.50rem;
+    }
+    .h2h2{
+        font-size: 2rem;
+       color:goldenrod;
+       margin-bottom: 0.3rem;
+    }
+ 
+    }
+    @media (min-width: 567px) and (max-width: 768px){
+       
+         .card{
+         
+            font-size:0.9rem ;
+             
+         }
+       
+     
+         .downdown{
+             font-size: 0.85rem;
+         }
+         .h2h2{
+            font-size: 2.2rem;
+            margin-bottom: 0.3rem;
+           color:goldenrod
+        }
+    
+    }
+
+    @media (min-width: 769px) and (max-width: 992px){
+      
+         .card{
+          
+            font-size:1.2rem ;
+           
+            
+         
+             
+         }
+         
+     
+         .downdown{
+             font-size: 0.95rem;
+         }
+    
+    }
+    @media (min-width: 992px) {
+    .h2h2{
+        font-size: 2.5rem;
+        margin-bottom: 0.4rem;
+       color:goldenrod
+    }
+.downdown{
+    font-size:1.2rem ;
+}}

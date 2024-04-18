@@ -1,0 +1,227 @@
+.head{
+ display: flex;
+font-size: 1.1rem;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.size{
+  
+
+  
+    transition: 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 1.5rem;
+}
+
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Playpen Sans', Courier, monospace;
+  z-index: -1;
+ 
+
+}
+.lol{
+  display: flex;
+  
+  align-items: center;
+  width: 700px;
+  transition: 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.lol1{
+  width: 350px;
+  height: 170px;
+  transition: 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.logos{
+    width: 100%;
+   height: 100%
+}
+
+
+.vintage{
+  margin-right: 3rem;
+  width: 230px;
+  height: 320px;
+}
+
+@media (min-width: 280px) and (max-width: 567px){
+    .head{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 85vh;
+    
+   
+        
+    }
+    .size{
+     
+        font-size: 1.45rem;
+     
+  
+       text-align: center;
+    }
+.lol{
+  width: 310px;
+  flex-direction: column;
+}
+.lol1{
+  width: 250px;
+  height: 140px;
+}
+.vintage{
+  margin-bottom:25px;
+}
+    }
+    @media (min-width: 567px) and (max-width: 768px){
+        .head{
+            flex-direction: column;
+          
+        
+            
+        }
+        
+          .size{
+     
+            font-size: 1.40rem;
+         
+           margin-top: 1rem;
+           text-align: center;
+        }
+    .lol{
+      width: 390px;
+      flex-direction: column;
+    }
+    .lol1{
+      width: 290px;
+      height: 170px;
+    }
+    .vintage{
+      margin-bottom:25px;
+    }
+    
+    }
+
+    @media (min-width: 769px) and (max-width: 992px){
+    .head{
+      min-height: 70vh;
+    }
+        .size{
+     
+          font-size: 1.75rem;
+         margin-top: 1rem;
+         text-align: center;
+      }
+  .lol{
+    width: 700px;
+
+
+  }
+  .lol1{
+    width: 350px;
+    height: 150px;
+  }
+  .vintage{
+height: 300px;
+width: 220px;
+    margin-right:45px;
+  }
+    
+    }
+    @media (min-width: 992px) and (max-width: 1200px){
+      .head{
+        min-height: 55vh;
+    
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+      }
+      .size{
+        font-size: 2.2rem;
+      }
+      .lol{
+        width: 900px;
+    
+    
+      }
+      .lol1{
+        width: 300px;
+        height: 180px;
+      }
+      .vintage{
+    height: 350px;
+    width: 260px;
+        margin-right:45px;
+      }
+    }
+    @media (min-width: 1200px) and (max-width: 1500px){
+   
+      .head{
+        min-height: 80vh;
+        padding-top: 2rem;
+        
+      }
+      .size{
+        font-size: 1.7rem;
+      }
+    
+      .lol{
+        width: 900px;
+    
+    
+      }
+      .lol1{
+        width: 260px;
+        height: 160px;
+      }
+      .vintage{
+    height: 330px;
+    width: 230px;
+        margin-right:45px;
+      }
+    }
+       
+        
+        
+        @media (min-width: 1500px) {
+        
+          .head{
+            height: 55vh;
+            padding-top: 2rem;
+            
+          }
+          .size{
+            font-size: 2.9rem;
+            
+           }
+           .size{
+            font-size: 2.4rem;
+          }
+        
+          .lol{
+            width: 1400px;
+        
+        
+          }
+          .lol1{
+            width: 550px;
+            height: 300px;
+          }
+          .vintage{
+        height: 650px;
+        width: 500px;
+            margin-right:45px;
+          }
+           }
+           @media (min-width: 768px) and (max-width: 992px){
+             .navitem{
+                 font-size: 6rem
+             }
+           }

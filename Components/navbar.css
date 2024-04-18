@@ -1,0 +1,125 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    background:transparent;
+    height: 6rem;
+    display: flex;
+    padding: 0.5rem 0rem;
+    justify-content: flex-start;
+    z-index: 2;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
+    font-family: 'Playpen Sans', Courier, monospace;
+   
+}
+.burger-button{
+    position: fixed;
+    height: 3.2rem;
+    width: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 10;
+    padding: 0.6rem;
+}
+.burger-bars{
+width: 4rem;
+height: 0.3rem;
+background-color: gray;
+
+}
+.navitem{
+   
+    position: absolute;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+ font-size: 40px;
+    transform: translateX(120%);
+    transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+    z-index:1;
+    padding: 1rem;
+    overflow: hidden;
+    
+}
+
+.transform{
+    transform: translateX(0%);
+    transition: 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.bigNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 22px;
+    margin-right: 2.8rem;
+}
+.bigNavitems{
+    margin: 2em;
+    text-decoration: none;
+    color: black;
+}
+.bigNavitems:hover{
+    cursor: pointer;
+    border-bottom: 2px solid yellow;
+}
+
+@media (min-width: 280px) and (max-width: 768px){
+.burger-button{
+    
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+}
+
+    .nav{
+        border:none;
+    }
+  
+    .navitems{
+        padding: 1.5rem;
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .nav{
+        border:none;
+    }
+    .navitems{
+        padding: 1.7rem;
+        font-size: 5rem
+    }
+  }
+@media (min-width: 1200px) and (max-width: 1500px){
+   
+ .bigNav{
+    font-size: 23px;
+ }
+  
+   }
+   
+   @media (min-width: 1500px) {
+   
+    .bigNav{
+       font-size: 30px;
+    }
+     
+      }
+      @media (min-width: 768px) and (max-width: 992px){
+        .navitem{
+            font-size: 6rem
+        }
+      }

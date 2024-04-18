@@ -1,0 +1,182 @@
+.offer{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Playpen Sans', Courier, monospace;
+          
+           width: 100%;
+      text-align: center;
+           justify-content: center;
+          margin-top: 4rem;
+          font-family: 'Playpen Sans', Courier, monospace;
+           position: relative;
+           margin-bottom: 5rem;
+           text-decoration: none;
+           
+       
+       
+}
+.title{
+    font-size: 3rem;
+}
+.offerbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.offerbox1,.offerbox2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+}
+.box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:22%;
+    height: 330px;
+    margin:1.8rem;
+    font-size: 2rem;
+
+
+}
+
+.a,.b,.c,.d,.e,.f{
+   
+    background-position: center;
+    background-size:cover;
+    border-radius: 8px;
+     box-shadow:10px 5px 5px black;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+}
+.square{
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 0.3rem;
+    color:goldenrod
+}
+
+
+/* .shadows{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    transition: 1s all;
+    overflow: hidden;
+    
+} */
+.a:hover,.c:hover,.e:hover{
+   
+   scale:0.9;
+    -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+          
+    
+}
+
+.b:hover,.d:hover,.f:hover{
+    scale:0.9;
+    -webkit-transform: rotate(+10deg);
+     -moz-transform: rotate(+10deg);
+       -o-transform: rotate(+10deg);
+      -ms-transform: rotate(+10deg);
+          transform: rotate(+10deg);
+
+}
+/* .shadows:hover{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+} */
+.a{
+    background-image: url('../img/preg/C6.PNG');
+}
+
+.c{
+    background-image: url('../img/studio/S13.jpg');
+}
+.f{
+    background-image: url('../img/plener/P6.jpg');
+}
+.d{
+    background-image: url('../img/estate/N1.jpg');
+}
+.e{
+    background-image: url('../img/reportage/P15.jpg');
+}
+
+
+@media (min-width: 280px) and (max-width: 567px){
+    .offer{
+        height: auto;
+    }
+    .offerbox1,.offerbox2{
+        flex-direction: column;
+       
+    
+        
+    }
+    .box{
+        width:50%;
+        font-size: 1.50rem;
+        height: 300px;
+        
+    }
+    .square{
+        background-color: rgba(0,0,0,0.7);
+    }
+ 
+    }
+    @media (min-width: 567px) and (max-width: 768px){
+        .offer{
+            height: auto;
+        }
+        .offerbox1,.offerbox2{
+            flex-wrap: wrap;
+           
+        
+            
+        }
+        .box{
+            width:30%;
+            font-size: 1.70rem;
+            height: 275px;
+        }    
+    
+    }
+
+    @media (min-width: 769px) and (max-width: 992px){
+        .offer{
+            height: auto;
+        }
+        .offerbox1,.offerbox2{
+            flex-wrap: wrap;
+           
+        
+            
+        }
+        .box{
+            width:40%;
+            font-size: 1.75rem;
+            height: 390px;
+        }  
+    
+    }
